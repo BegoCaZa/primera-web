@@ -23,6 +23,285 @@ nav ul {
 }
 
 body {
+  font-family: "Barlow", sans-serif;
+  color: #162542;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.pre-order {
+  width: 175px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #E8EFF2;
+  border-radius: 10px;
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.father1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding-left:24px;
+  padding-bottom: 30px;
+}
+
+@media screen and (width>360px) {
+  .father1 {
+    overflow: hidden;
+  }
+}
+@media screen and (width>768px) {
+  .father1{
+    overflow: hidden;
+  }
+}
+
+.box1 {
+min-width: 20.4375rem;
+max-width: 27.8125rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: space-evenly;
+}
+
+.Title-box1{
   margin: 0;
-  font-family: sans-serif;
+  font-weight:900 ;
+  font-size: 3.5rem;
+}
+.subtitle-box1{
+  font-weight: 400 ;
+  font-size: 1.125rem;
+  color: #7B8BAD;
+}
+
+.release{
+  font-weight: 600 ;
+  font-size: 1.125rem;
+  color: #7B8BAD;
+}
+.container-botton{
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.pre-order-orange{
+  width: 175px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #F16718;
+  border-radius: 10px;
+  font-family: "Barlow", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.picture-box1{
+  border-radius: 20px;
+  width: 372px;
+
+}
+@media screen and (width>360px) {
+  .picture-box1 {
+    width: 478px;
+    overflow: hidden;
+  }
+}
+@media screen and (width>768px) {
+  .picture-box1 {
+    width: 540px;
+    overflow: hidden;
+  }
+}
+
+.father2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.box2{
+width: 255px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+justify-content: space-evenly;
+}
+
+.picture-box2{
+border-radius: 20px;
+width: 129px;
+}
+@media screen and (width>360px) {
+  .picture-box2 {
+    width: 214px;
+  }
+}
+
+@media screen and (width>768px) {
+  .picture-box2 {
+    width: 255px;
+  }
+}
+
+.picture-box3{
+  border-radius: 20px;
+  width: 220px;
+}
+@media screen and (width>360px) {
+  .picture-box3 {
+    width: 445px;
+  }
+}
+@media screen and (width>768px) {
+  .picture-box3 {
+    width: 445px;
+  }
+}
+
+.title-box2{
+  margin: 0;
+  font-weight:900 ;
+  font-size: 32px;
+  text-align: center;
+}
+  @media screen and (width>768px) {
+    .title-box2 {
+      text-align: left;
+      margin-left: 30px ;
+    }
+  }
+  
+
+.subtitle-box2{
+  font-weight: 400 ;
+  font-size: 16px;
+  color: #7B8BAD;
+  text-align: center;
+}
+@media screen and (width>768px) {
+  .subtitle-box2 {
+    text-align: left;
+    margin-left: 30px ;
+  }
+}
+
+.father3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+
+}
+
+.card-compatible{
+width: 327px;
+background-color: white;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-content: space-evenly;
+align-content: center;
+text-align: center;
+padding: 10px;
+}
+
+.card-bluetooth{
+width: 327px;
+background-color: white;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-content: space-evenly;
+align-content: center;
+text-align: center;
+padding: 10px;
+
+}
+
+.card-battery{
+width: 327px;
+background-color: white;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-content: space-evenly;
+align-content: center;
+text-align: center;
+padding: 10px;
+}
+
+.card-rgb{
+width: 327px;
+background-color: white;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-content: space-evenly;
+align-content: center;
+text-align: center;
+padding: 10px;
+}
+
+.icon-container{
+  width: 65px;
+  height: 65px;
+  border-radius: 30%;
+  background-color: #F16718;
+  margin-inline: auto;
+}
+
+.icon {
+  display: block;
+  padding: 20px;
+}
+.title-card{
+  margin: 0;
+  font-weight:900 ;
+  font-size: 24px;
+  text-align: center;
+}
+.subtitle-card{
+  margin: 0;
+  font-weight:400 ;
+  font-size: 16px;
+  color: #7B8BAD;
+  text-align: center;
 }
