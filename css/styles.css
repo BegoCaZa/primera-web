@@ -23,33 +23,40 @@ nav ul {
 }
 
 body {
-  font-family: "Barlow", sans-serif;
+  /* font-family: "Barlow", sans-serif;
   color: #162542;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: white;  */
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
 }
 
 .header {
+  /* display: flex;
+  flex-direction: row; */
+  padding-left: 24px;
+  padding-top: 24px;
+  margin-bottom: 38px;
+}
+
+.top-bar {
   display: flex;
-  padding: 24px;
   justify-content: space-between;
+  margin-bottom: 64px;
+  padding-right: 24px;
 }
 
 .pre-order {
-  width: 175px;
-  display: inline;
-  justify-content: center;
-  align-items: center;
+  padding: 11px 13px;
   border: none;
   background-color: #E8EFF2;
   border-radius: 10px;
-  font-family: "Barlow", sans-serif;
-  font-size: 1rem;
+  font-family: inherit;
+  font-size: 14px;
   font-weight: 700;
-  font-style: normal;
 }
 
 .father1{
